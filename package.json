@@ -1,0 +1,35 @@
+{
+  "homepage": "http://dev.bedsdivans.co.uk/",
+  "name": "new-bedsdivan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "next": "11.0.1",
+    "next-images": "^1.8.1",
+    "pkg.json": "^2.0.8",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.28.1",
+    "react-tabs": "^3.2.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "7.30.0",
+    "eslint-config-next": "11.0.1"
+  }
+}
