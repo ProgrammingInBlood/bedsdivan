@@ -1,6 +1,6 @@
 
 import Image from 'next/image/';
-import Link from 'next/link';
+
 import Head from 'next/head';
 
 function Sofa() {
@@ -15,8 +15,8 @@ function Sofa() {
       </Head>
       <div className="header section">
           {/* <ul>
-              <li><Link href="/new">New</Link>
-              <li><Link href="/product/Divanbed">Divan</Link></li>
+              <li><a href="/new">New</a>
+              <li><a href="/product/Divanbed">Divan</a></li>
               </li>
               
           </ul> */}
@@ -167,7 +167,7 @@ function Sofa() {
                         <div className="main-menu manu-color-white">
                             <ul>
                             {/* <li className="dropdown position-static"><a href="/DivanBed"> <b>Divan Beds</b> </a> */}
-                            <li className="dropdown position-static "><Link className="ForBold" href="/product/Divanbed">  Divan Beds</Link>
+                            <li className="dropdown position-static "><a className="ForBold" href="/product/Divanbed">  Divan Beds</a>
                                     <ul className="mega-menu d-block">
                                         <li className="d-flex">
                                         <ul className="d-block">

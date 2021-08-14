@@ -55,17 +55,17 @@ function Shop() {
                     <div className="col d-none d-lg-block">
                       <div className="header-top-set-lan-curr d-flex justify-content-end">
                         <div className="header-top-content">
-                          <Link href="/contact">
+                          <a href="/contact">
                             {" "}
                             <button> Contact Us </button>
-                          </Link>
+                          </a>
                         </div>
 
                         <div className="header-top-content">
-                          <Link href="/about">
+                          <a href="/about">
                             {" "}
                             <button>About us</button>
-                          </Link>
+                          </a>
                         </div>
                         <div className="header-top-content">
                           <button>01902405535</button>
@@ -81,14 +81,14 @@ function Shop() {
                 <div className="row align-self-center">
                   <div className="col-md-2 align-self-center">
                     <div className="header-logo">
-                      <Link href="">
+                      <a href="">
                         <Image
                           alt="BedsDivan"
                           src="/assets/images/logo/logo.png"
                           width={118}
                           height={118}
                         />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                   <div className="col-md-6 align-self-center">
@@ -105,21 +105,21 @@ function Shop() {
                           </button>
                         </form>
                       </div>
-                      <Link
+                      <a
                         href="#"
                         className="header-action-btn header-action-btn-cart"
                         title="Wishlist"
                       >
                         <i className="icon-heart"></i>
                         <span className="header-action-num">05</span>
-                      </Link>
-                      <Link
+                      </a>
+                      <a
                         href="#"
                         className="header-action-btn header-action-btn-cart offcanvas-toggle pr-0"
                       >
                         <i className="icon-handbag"></i>
                         <span className="header-action-num">01</span>
-                      </Link>
+                      </a>
                     </div>
                   </div>
 
@@ -128,19 +128,19 @@ function Shop() {
                       <div className="header-bottom-set dropdown">
                         <ul>
                           <button className="login-button">
-                            <Link href="#" style={{ color: "#262884" }}>
+                            <a href="#" style={{ color: "#262884" }}>
                               {" "}
                               <b>Login</b>{" "}
-                            </Link>
+                            </a>
                           </button>
 
                           <button className="ReadMorB">
                             {" "}
                             <span style={{ color: "#7c7c7c" }}>or</span>{" "}
-                            <Link href="#" style={{ color: "#292929" }}>
+                            <a href="#" style={{ color: "#292929" }}>
                               {" "}
                               <b>Register</b>{" "}
-                            </Link>
+                            </a>
                           </button>
                           <button className="box-imgN">
                             <Image
@@ -162,26 +162,26 @@ function Shop() {
                 <div className="row align-self-center">
                   <div className="col-auto align-self-center">
                     <div className="header-logo">
-                      <Link href="#">
+                      <a href="#">
                         <Image
                           src="/assets/images/logo/logo.png"
                           width={128}
                           height={128}
                           alt="Site Logo"
                         />
-                      </Link>
+                      </a>
                     </div>
                   </div>
 
                   <div className="col align-self-center">
                     <div className="header-actions">
                       <div className="header_account_list">
-                        <Link
+                        <a
                           href="javascript:void(0)"
                           className="header-action-btn search-btn"
                         >
                           <i className="icon-magnifier"></i>
-                        </Link>
+                        </a>
                         <div className="dropdown_search">
                           <form className="action-form" action="#">
                             <input
@@ -205,42 +205,42 @@ function Shop() {
                         </button>
                         <ul>
                           <li>
-                            <Link
+                            <a
                               className="dropdown-item"
                               href="my-account.html"
                             >
                               My account
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link
+                            <a
                               className="dropdown-item"
                               href="checkout.html"
                             >
                               Checkout
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link className="dropdown-item" href="login.html">
+                            <a className="dropdown-item" href="login.html">
                               Sign in
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
 
-                      <Link
+                      <a
                         href="#offcanvas-cart"
                         className="header-action-btn header-action-btn-cart offcanvas-toggle pr-0"
                       >
                         <i className="icon-handbag"></i>
                         <span className="header-action-num">01</span>
-                      </Link>
-                      <Link
+                      </a>
+                      <a
                         href="#offcanvas-mobile-menu"
                         className="header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none"
                       >
                         <i className="icon-menu"></i>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -260,15 +260,15 @@ function Shop() {
                       <ul>
                         {/* <li className="dropdown position-static"><a href="/DivanBed"> <b>Divan Beds</b> </a> */}
                         <li className="dropdown position-static ">
-                          <Link className="ForBold" href="/product/Divanbed">
+                          <a className="ForBold" href="/product/Divanbed">
                             {" "}
                             Divan Beds
-                          </Link>
+                          </a>
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0 "
                                     href="shop-left-sidebar.html"
                                   >
@@ -279,88 +279,88 @@ function Shop() {
                                       height={238}
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
 
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Shop by Type </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     Linen Fabric Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-4-column.html">
+                                  <a href="shop-4-column.html">
                                     Velvet Fabric Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-left-sidebar.html">
+                                  <a href="shop-left-sidebar.html">
                                     Suede Fabric Divan Bed
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Low Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Leather Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link
+                                  <a
                                     href="shop-right-sidebar.html"
                                     style={{ color: "#262884" }}
                                   >
                                     {" "}
                                     <b>View All</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Shop by size </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product.html">
+                                  <a href="single-product.html">
                                     Small Single (2?6)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Single (3?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-affiliate.html">
+                                  <a href="single-product-affiliate.html">
                                     Small Double (4?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-group.html">
+                                  <a href="single-product-group.html">
                                     Double (4?6)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-tabstyle-2.html">
+                                  <a href="single-product-tabstyle-2.html">
                                     King (5?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-tabstyle-3.html">
+                                  <a href="single-product-tabstyle-3.html">
                                     Super King (6?0)
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul
@@ -368,15 +368,15 @@ function Shop() {
                                 style={{ marginRight: "0px !important" }}
                               >
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Divan Beds Complete Set</b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     Linen Fabric Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
@@ -384,16 +384,16 @@ function Shop() {
                           </ul>
                         </li>
                         <li className="dropdown position-static">
-                          <Link className="ForBold" href="/product/AllBeds">
+                          <a className="ForBold" href="/product/AllBeds">
                             {" "}
                             All Beds{" "}
-                          </Link>
+                          </a>
 
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0"
                                     href="shop-left-sidebar.html"
                                   >
@@ -404,87 +404,87 @@ function Shop() {
                                       height={238}
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Sleigh Beds </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     Florida Bed Range
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-4-column.html">
+                                  <a href="shop-4-column.html">
                                     Ambassador Range
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Kendall Bed
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Manoco Range
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Royal Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Swan Bed Range
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Wing Bed Range
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Winchester Bed
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Ottoman Beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Kids Beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Leather beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Nevada Beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Storage Bed</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul
@@ -492,57 +492,57 @@ function Shop() {
                                 style={{ marginRight: "0px !important" }}
                               >
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Divan Beds </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     Linen Fabric Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-4-column.html">
+                                  <a href="shop-4-column.html">
                                     Velvet Fabric Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-left-sidebar.html">
+                                  <a href="shop-left-sidebar.html">
                                     Suede Fabric Divan Bed
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Low Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Leather Divan Beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link
+                                  <a
                                     href="shop-right-sidebar.html"
                                     style={{ color: "#262884" }}
                                   >
                                     {" "}
                                     <b>View All</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
                           </ul>
                         </li>
                         <li className="dropdown position-static">
-                          <Link href="/product/Headboard"> Headboard </Link>
+                          <a href="/product/Headboard"> Headboard </a>
 
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0"
                                     href="shop-left-sidebar.html"
                                   >
@@ -553,86 +553,86 @@ function Shop() {
                                       height={238}
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
                                   {" "}
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Shop by Type</b>{" "}
-                                  </Link>{" "}
+                                  </a>{" "}
                                 </li>
                                 <li>
-                                  <Link href="#">Panerl Headboard</Link>
+                                  <a href="#">Panerl Headboard</a>
                                 </li>
                                 <li>
-                                  <Link href="#">Cube Headboard</Link>
+                                  <a href="#">Cube Headboard</a>
                                 </li>
                                 <li>
-                                  <Link href="#">Plain Headboard</Link>
+                                  <a href="#">Plain Headboard</a>
                                 </li>
                                 <li>
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>View All</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
 
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Shop by size</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product.html">
+                                  <a href="single-product.html">
                                     Small Single (2?6)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Single (3?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-affiliate.html">
+                                  <a href="single-product-affiliate.html">
                                     Small Double (4?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-group.html">
+                                  <a href="single-product-group.html">
                                     Double (4?6)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-tabstyle-2.html">
+                                  <a href="single-product-tabstyle-2.html">
                                     King (5?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-tabstyle-3.html">
+                                  <a href="single-product-tabstyle-3.html">
                                     Super King (6?0)
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
                           </ul>
                         </li>
                         <li className="dropdown position-static">
-                          <Link href="/Mattressess">
+                          <a href="/Mattressess">
                             {" "}
                             <b>Mattresses </b>{" "}
-                          </Link>
+                          </a>
 
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0"
                                     href="shop-left-sidebar.html"
                                   >
@@ -643,105 +643,105 @@ function Shop() {
                                       height={238}
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Shop by Type </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     Plain Headboard
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-4-column.html">
+                                  <a href="shop-4-column.html">
                                     Panel Headboard
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Cube Headboard
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link
+                                  <a
                                     href="shop-left-sidebar.html"
                                     style={{ color: "#262884" }}
                                   >
                                     {" "}
                                     <b>View All</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Shop by size</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product.html">
+                                  <a href="single-product.html">
                                     Small Single (2?6)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Single (3?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-affiliate.html">
+                                  <a href="single-product-affiliate.html">
                                     Small Double (4?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-group.html">
+                                  <a href="single-product-group.html">
                                     Double (4?6)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-tabstyle-2.html">
+                                  <a href="single-product-tabstyle-2.html">
                                     King (5?0)
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-tabstyle-3.html">
+                                  <a href="single-product-tabstyle-3.html">
                                     Super King (6?0)
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Shop by Comfort</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product.html">
+                                  <a href="single-product.html">
                                     Very Firm
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Firm
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-affiliate.html">
+                                  <a href="single-product-affiliate.html">
                                     Medium
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-group.html">
+                                  <a href="single-product-group.html">
                                     Soft
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
@@ -749,16 +749,16 @@ function Shop() {
                         </li>
 
                         <li className="dropdown position-static">
-                          <Link className="ForBold" href="/product/Sofa">
+                          <a className="ForBold" href="/product/Sofa">
                             Sofa{" "}
-                          </Link>
+                          </a>
                           {/* <i
                                               className="ion-ios-arrow-down"></i> */}
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0"
                                     href="shop-left-sidebar.html"
                                   >
@@ -769,107 +769,107 @@ function Shop() {
                                       src="/assets/images/banner/Mattresses-nav.jpg"
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Shop by Type </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     Chair beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-4-column.html">
+                                  <a href="shop-4-column.html">
                                     2 seater sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     3 seater sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     4 seater sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Corner sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Storage sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Fabric sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Chairs
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Footstools
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Fabric Sofa</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product.html">
+                                  <a href="single-product.html">
                                     Champion Sofa
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Chicago Sofa
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Leather beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Nevada Beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Storage Bed</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
                           </ul>
                         </li>
                         <li className="dropdown position-static">
-                          <Link href="/product/GardenFurniture">
+                          <a href="/product/GardenFurniture">
                             Garden Furniture{" "}
-                          </Link>
+                          </a>
                           {/* <i
                                               className="ion-ios-arrow-down"></i> */}
 
@@ -877,7 +877,7 @@ function Shop() {
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0"
                                     href="shop-left-sidebar.html"
                                   >
@@ -888,98 +888,98 @@ function Shop() {
                                       src="/assets/images/banner/Mattresses-nav.jpg"
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Shop by Type </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     Chair beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-4-column.html">
+                                  <a href="shop-4-column.html">
                                     2 seater sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     3 seater sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     4 seater sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Corner sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Storage sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Fabric sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Chairs
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     Footstools
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Fabric Sofa</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product.html">
+                                  <a href="single-product.html">
                                     Champion Sofa
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Chicago Sofa
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Leather beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Nevada Beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Storage Bed</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
@@ -998,17 +998,17 @@ function Shop() {
                                   </li> */}
 
                         <li className="dropdown position-static">
-                          <Link href="/product/LivingRoom">
+                          <a href="/product/LivingRoom">
                             {" "}
                             Living Room Furniture{" "}
-                          </Link>
+                          </a>
                           {/* <i
                                               className="ion-ios-arrow-down"></i> */}
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0"
                                     href="shop-left-sidebar.html"
                                   >
@@ -1019,63 +1019,63 @@ function Shop() {
                                       src="/assets/images/banner/Mattresses-nav.jpg"
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Chest Drawers</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Shelf</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Wardrobes</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Nevada Beds</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Storage Bed</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
 
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Chairs</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product.html">
+                                  <a href="single-product.html">
                                     Arm Chairs
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Rocking Chairs
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="single-product-variable.html">
+                                  <a href="single-product-variable.html">
                                     Lounge Chairs
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
@@ -1083,14 +1083,14 @@ function Shop() {
                         </li>
 
                         <li className="dropdown position-static">
-                          <Link href="/product/DiningSet"> Dining Set </Link>
+                          <a href="/product/DiningSet"> Dining Set </a>
                           {/* <i
                                               className="ion-ios-arrow-down"></i> */}
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
                                 <li>
-                                  <Link
+                                  <a
                                     className="p-0"
                                     href="shop-left-sidebar.html"
                                   >
@@ -1101,79 +1101,79 @@ function Shop() {
                                       src="/assets/images/banner/Mattresses-nav.jpg"
                                       alt="BedsDivan"
                                     />
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                               <ul className="d-block">
                                 <li className="title">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b> Dining Table Set </b>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-3-column.html">
+                                  <a href="shop-3-column.html">
                                     2 Seater Dining Sets
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-4-column.html">
+                                  <a href="shop-4-column.html">
                                     4 Seater Dining Sets
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     6 Seater Dining Sets
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     4 seater sofa beds
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link href="shop-right-sidebar.html">
+                                  <a href="shop-right-sidebar.html">
                                     8 Seater Dining Sets
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li>
-                                  <Link
+                                  <a
                                     href="shop-right-sidebar.html"
                                     style={{ color: "#262884" }}
                                   >
                                     <b>View All</b>
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
 
                               <ul className="d-block">
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Dining Chairs</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Dining Tables</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="title1">
-                                  <Link href="#" style={{ color: "#262884" }}>
+                                  <a href="#" style={{ color: "#262884" }}>
                                     {" "}
                                     <b>Sideboards</b>{" "}
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <Link href="contact.html" style={{ color: "red" }}>
+                          <a href="contact.html" style={{ color: "red" }}>
                             {" "}
                             <b>Sale</b>{" "}
-                          </Link>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -1198,7 +1198,7 @@ function Shop() {
                   aria-multiselectable="true"
                 >
                   <div class="mt-3 " role="tab" id="headingOne1">
-                    <Link
+                    <a
                       data-toggle="collapse"
                       data-parent="#accordionEx"
                       href="#collapseOne1"
@@ -1206,19 +1206,19 @@ function Shop() {
                       aria-controls="collapseOne1"
                     >
                       <h6 class="mb-0" style={{ color: "#7c7c7c" }}>
-                        <Link
+                        <a
                           href=""
                           style={{ textDecoration: "none", color: "#7c7c7c" }}
                         >
                           {" "}
                           <b> Beds </b>
-                        </Link>
+                        </a>
                         <span style={{ float: "right" }}>
                           {" "}
                           <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </span>
                       </h6>
-                    </Link>
+                    </a>
                   </div>
                   <div
                     id="collapseOne1"
@@ -1230,35 +1230,35 @@ function Shop() {
                     <div class="card-body">
                       <ul className="item-menu">
                         <li>
-                          <Link href="#">Accent Chairs</Link>
+                          <a href="#">Accent Chairs</a>
                         </li>
                         <li>
-                          <Link href="#">Armchairs</Link>
+                          <a href="#">Armchairs</a>
                         </li>
                         <li>
-                          <Link href="#">Chair Sets</Link>
+                          <a href="#">Chair Sets</a>
                         </li>
                         <li>
-                          <Link href="#">Chesterfield Chairs</Link>
+                          <a href="#">Chesterfield Chairs</a>
                         </li>
                         <li>
-                          <Link href="#">Dinning Sets</Link>
+                          <a href="#">Dinning Sets</a>
                         </li>
                         <li>
-                          <Link href="#">Fireside Chairs</Link>
+                          <a href="#">Fireside Chairs</a>
                         </li>
                         <li>
-                          <Link href="#">Lift Chairs</Link>
+                          <a href="#">Lift Chairs</a>
                         </li>
                         <li>
-                          <Link href="#">Reclining Chair</Link>
+                          <a href="#">Reclining Chair</a>
                         </li>
                       </ul>
                     </div>
                   </div>
 
                   <div class="mt-3" role="tab" id="headingTwo2">
-                    <Link
+                    <a
                       class="collapsed"
                       data-toggle="collapse"
                       data-parent="#accordionEx"
@@ -1267,19 +1267,19 @@ function Shop() {
                       aria-controls="collapseTwo2"
                     >
                       <h6 class="mb-0">
-                        <Link
+                        <a
                           href=""
                           style={{ textDecoration: "none", color: "#7c7c7c" }}
                         >
                           {" "}
                           <b>Headboards</b>
-                        </Link>
+                        </a>
                         <span style={{ float: "right" }}>
                           {" "}
                           <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </span>
                       </h6>
-                    </Link>
+                    </a>
                   </div>
                   <div
                     id="collapseTwo2"
@@ -1291,31 +1291,31 @@ function Shop() {
                     <div class="card-body">
                       <ul className="item-menu">
                         <li>
-                          <Link href="#">House Fabric Divan Beds</Link>
+                          <a href="#">House Fabric Divan Beds</a>
                         </li>
                         <li>
-                          <Link href="#">Suede Divan Bed</Link>
+                          <a href="#">Suede Divan Bed</a>
                         </li>
                         <li>
-                          <Link href="#">Velvet Fabric Divan Beds</Link>
+                          <a href="#">Velvet Fabric Divan Beds</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Mattressess</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
 
                   <div class="mt-3" role="tab" id="headingThree3">
-                    <Link
+                    <a
                       class="collapsed"
                       data-toggle="collapse"
                       data-parent="#accordionEx"
@@ -1324,19 +1324,19 @@ function Shop() {
                       aria-controls="collapseThree3"
                     >
                       <h6 class="mb-0">
-                        <Link
+                        <a
                           href=""
                           style={{ textDecoration: "none", color: "#7c7c7c" }}
                         >
                           {" "}
                           <b>All Beds</b>
-                        </Link>
+                        </a>
                         <span style={{ float: "right" }}>
                           {" "}
                           <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </span>
                       </h6>
-                    </Link>
+                    </a>
                   </div>
 
                   <div
@@ -1349,56 +1349,56 @@ function Shop() {
                     <div class="card-body">
                       <ul className="item-menu">
                         <li>
-                          <Link href="#">Chest Draws</Link>
+                          <a href="#">Chest Draws</a>
                         </li>
                         <li>
-                          <Link href="#">Garden Furniture</Link>
+                          <a href="#">Garden Furniture</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Sofa</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Garden Furniture</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Living Room Furniture</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Dinning Set</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   {/* <div className="mt-3" >
@@ -1551,46 +1551,46 @@ function Shop() {
                   </h5>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Average rating</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Newness</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Price: low to high</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   <div className="mt-3">
                     <h6 class="mb-0">
-                      <Link
+                      <a
                         href=""
                         style={{ textDecoration: "none", color: "#7c7c7c" }}
                       >
                         {" "}
                         <b>Price: high to low</b>
-                      </Link>{" "}
+                      </a>{" "}
                     </h6>
                   </div>
                   <hr className="mt-3 " />
@@ -1615,10 +1615,10 @@ function Shop() {
                 <div style={{ float: "right" }}>
                   <span>
                     Show:{" "}
-                    <Link style={{ marginRight: "10px" }} href="#">
+                    <a style={{ marginRight: "10px" }} href="#">
                       All
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                       class="btn  dropdown-toggle"
                       href="#"
                       role="button"
@@ -1628,23 +1628,23 @@ function Shop() {
                       aria-expanded="false"
                     >
                       Sort by popularity
-                    </Link>
+                    </a>
                     <div
                       class="dropdown-menu"
                       aria-labelledby="dropdownMenuLink"
                     >
-                      <Link class="dropdown-item" href="#!">
+                      <a class="dropdown-item" href="#!">
                         Sort by average rating
-                      </Link>
-                      <Link class="dropdown-item" href="#!">
+                      </a>
+                      <a class="dropdown-item" href="#!">
                         Sort by latest
-                      </Link>
-                      <Link class="dropdown-item" href="#!">
+                      </a>
+                      <a class="dropdown-item" href="#!">
                         Sort by price: low to high
-                      </Link>
-                      <Link class="dropdown-item" href="#!">
+                      </a>
+                      <a class="dropdown-item" href="#!">
                         Sort by price: high to low
-                      </Link>
+                      </a>
                     </div>
                   </span>
                 </div>
@@ -1652,16 +1652,16 @@ function Shop() {
                   className="row "
                   style={{ marginTop: "86px", marginLeft: "-30px" }}
                 >
-                  {bedsdivan.map((bedsdivans) => (
+                  {/* {bedsdivan.map((bedsdivans) => (
                     <div className="col-md-4">
                       <div class="card" style={{ width: "19em" }}>
-                        <Link href="" style={{ textDecoration: "none" }}>
+                        <a href="" style={{ textDecoration: "none" }}>
                           <img
                             class="card-img-top"
                             src={bedsdivans.product_images}
                             alt="Card image cap"
                           />
-                        </Link>
+                        </a>
                         <div
                           class="card-body cardTxt"
                           style={{ paddingleft: "18px" }}
@@ -1676,7 +1676,7 @@ function Shop() {
                               alt=""
                             />
                           </p>
-                          <Link href="#" style={{ textDecoration: "none" }}>
+                          <a href="#" style={{ textDecoration: "none" }}>
                             <p
                               className="card-text"
                               style={{ fontSize: "19px" }}
@@ -1687,11 +1687,11 @@ function Shop() {
                                 {bedsdivans.compare_Price}
                               </del>{" "}
                             </p>
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
-                  ))}
+                  ))} */}
 
                   {/* {
                                 bedsdivan.map(bedsdivans =>(
@@ -1703,13 +1703,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -1724,13 +1724,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -1740,13 +1740,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -1761,13 +1761,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -1780,13 +1780,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -1801,1283 +1801,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* second row end */}
-
-                {/* third row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* third row end */}
-
-                {/* fourth row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* fourth row end */}
-
-                {/* fifth row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* fifth row end */}
-
-                {/* six row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* six row end */}
-                {/* seven row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* seven row end */}
-                {/* eight row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* eight row end */}
-                {/* nine row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* nine row end */}
-
-                {/* ten row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* ten row end */}
-                {/* eleven row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* eleven row end */}
-                {/* 12 row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "10px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-4"
-                    style={{ position: "relative", left: "20px" }}
-                  >
-                    <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* 12 row end */}
-                {/* second row start */}
-                <div
-                  className="row "
-                  style={{ marginTop: "46px", marginLeft: "-30px" }}
-                >
-                  <div className="col-md-4">
-                    <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
-                        <img
-                          class="card-img-top"
-                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
-                          alt="Card image cap"
-                        />
-                      </Link>
-                      <div
-                        class="card-body cardTxt"
-                        style={{ paddingleft: "18px" }}
-                      >
-                        <h6 class="card-title  card-hoverText">
-                          {" "}
-                          <b> Olivier Fabric Ottoman Bed </b>
-                        </h6>
-                        <p class="card-text ">
-                          <img
-                            src="assets/images/banner/Group 429.png"
-                            alt=""
-                          />
-                        </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
-                          <p className="card-text" style={{ fontSize: "19px" }}>
-                            {" "}
-                            <b> £400.00 </b>
-                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
-                          </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3108,13 +1838,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3124,13 +1854,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3145,13 +1875,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3166,13 +1896,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3187,13 +1917,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3203,13 +1933,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3224,13 +1954,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3240,13 +1970,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3261,13 +1991,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3282,13 +2012,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3303,13 +2033,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3319,13 +2049,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3340,13 +2070,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3356,13 +2086,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3377,13 +2107,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3398,13 +2128,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3419,13 +2149,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3435,13 +2165,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3456,13 +2186,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3472,13 +2202,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3493,13 +2223,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3514,13 +2244,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3535,13 +2265,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3551,13 +2281,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3572,13 +2302,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3588,13 +2318,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3609,13 +2339,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3629,13 +2359,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3650,13 +2380,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3666,13 +2396,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3687,13 +2417,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3703,13 +2433,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3724,13 +2454,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3744,13 +2474,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3765,13 +2495,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3781,13 +2511,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3802,13 +2532,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3818,13 +2548,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3839,13 +2569,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3859,13 +2589,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3880,13 +2610,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3896,13 +2626,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3917,13 +2647,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3933,13 +2663,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3954,13 +2684,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -3975,13 +2705,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -3996,13 +2726,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4012,13 +2742,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4033,13 +2763,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4049,13 +2779,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4070,13 +2800,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4090,13 +2820,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4111,13 +2841,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4127,13 +2857,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4148,13 +2878,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4164,13 +2894,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4185,13 +2915,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4205,13 +2935,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4226,13 +2956,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4242,13 +2972,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4263,13 +2993,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4279,13 +3009,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4300,18 +3030,19 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
                   </div>
                 </div>
+                {/* 12 row end */}
                 {/* second row start */}
                 <div
                   className="row "
@@ -4319,13 +3050,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4340,13 +3071,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4356,13 +3087,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4377,13 +3108,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4393,13 +3124,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4414,13 +3145,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4435,13 +3166,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4456,13 +3187,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4472,13 +3203,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4493,13 +3224,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4509,13 +3240,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4530,13 +3261,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4551,13 +3282,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4572,13 +3303,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4588,13 +3319,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4609,13 +3340,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4625,13 +3356,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4646,13 +3377,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4667,13 +3398,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4688,13 +3419,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4704,13 +3435,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4725,13 +3456,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4741,13 +3472,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4762,13 +3493,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4783,13 +3514,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4804,13 +3535,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4820,13 +3551,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4841,13 +3572,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4857,13 +3588,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4878,13 +3609,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4898,13 +3629,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4919,13 +3650,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4935,13 +3666,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4956,13 +3687,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -4972,13 +3703,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -4993,13 +3724,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5013,13 +3744,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5034,13 +3765,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5050,13 +3781,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5071,13 +3802,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5087,13 +3818,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5108,13 +3839,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5128,13 +3859,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5149,13 +3880,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5165,13 +3896,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5186,13 +3917,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5202,13 +3933,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5223,13 +3954,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5244,13 +3975,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5265,13 +3996,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5281,13 +4012,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5302,13 +4033,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5318,13 +4049,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5339,13 +4070,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5359,13 +4090,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5380,13 +4111,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5396,13 +4127,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5417,13 +4148,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5433,13 +4164,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5454,13 +4185,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5474,13 +4205,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5495,13 +4226,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5511,13 +4242,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5532,13 +4263,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5548,13 +4279,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5569,13 +4300,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5588,13 +4319,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5609,13 +4340,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5625,13 +4356,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5646,13 +4377,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5662,13 +4393,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5683,13 +4414,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5704,13 +4435,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5725,13 +4456,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5741,13 +4472,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5762,13 +4493,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5778,13 +4509,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5799,13 +4530,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5820,13 +4551,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5841,13 +4572,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5857,13 +4588,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5878,13 +4609,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5894,13 +4625,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5915,13 +4646,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5936,13 +4667,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5957,13 +4688,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -5973,13 +4704,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -5994,13 +4725,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6010,13 +4741,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6031,13 +4762,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6052,13 +4783,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6073,13 +4804,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6089,13 +4820,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6110,13 +4841,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6126,13 +4857,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6147,13 +4878,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6167,13 +4898,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6188,13 +4919,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6204,13 +4935,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6225,13 +4956,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6241,13 +4972,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6262,13 +4993,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6282,13 +5013,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6303,13 +5034,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6319,13 +5050,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6340,13 +5071,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6356,13 +5087,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6377,13 +5108,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6397,13 +5128,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6418,13 +5149,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6434,13 +5165,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6455,13 +5186,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6471,13 +5202,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6492,13 +5223,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6513,13 +5244,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6534,13 +5265,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6550,13 +5281,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6571,13 +5302,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6587,13 +5318,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6608,13 +5339,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6628,13 +5359,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6649,13 +5380,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6665,13 +5396,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6686,13 +5417,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6702,13 +5433,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6723,13 +5454,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6743,13 +5474,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6764,13 +5495,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6780,13 +5511,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6801,13 +5532,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6817,13 +5548,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6838,13 +5569,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6857,13 +5588,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6878,13 +5609,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6894,13 +5625,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6915,13 +5646,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6931,13 +5662,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6952,13 +5683,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -6973,13 +5704,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -6994,13 +5725,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -7010,13 +5741,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -7031,13 +5762,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -7047,13 +5778,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -7068,13 +5799,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -7089,13 +5820,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -7110,13 +5841,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -7126,13 +5857,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -7147,13 +5878,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -7163,13 +5894,13 @@ function Shop() {
                     style={{ position: "relative", left: "20px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -7184,13 +5915,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -7205,13 +5936,13 @@ function Shop() {
                 >
                   <div className="col-md-4">
                     <div class="card" style={{ width: "19em" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -7226,13 +5957,13 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>
@@ -7242,13 +5973,13 @@ function Shop() {
                     style={{ position: "relative", left: "10px" }}
                   >
                     <div class="card" style={{ width: "19rem" }}>
-                      <Link href="" style={{ textDecoration: "none" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
                         <img
                           class="card-img-top"
                           src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
                           alt="Card image cap"
                         />
-                      </Link>
+                      </a>
                       <div
                         class="card-body cardTxt"
                         style={{ paddingleft: "18px" }}
@@ -7263,13 +5994,1282 @@ function Shop() {
                             alt=""
                           />
                         </p>
-                        <Link href="#" style={{ textDecoration: "none" }}>
+                        <a href="#" style={{ textDecoration: "none" }}>
                           <p className="card-text" style={{ fontSize: "19px" }}>
                             {" "}
                             <b> £400.00 </b>
                             <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
                           </p>
-                        </Link>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* fifth row end */}
+
+                {/* six row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* six row end */}
+                {/* seven row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* seven row end */}
+                {/* eight row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* eight row end */}
+                {/* nine row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* nine row end */}
+
+                {/* ten row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ten row end */}
+                {/* eleven row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* eleven row end */}
+                {/* 12 row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* second row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* second row end */}
+
+                {/* third row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* third row end */}
+
+                {/* fourth row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "20px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* fourth row end */}
+
+                {/* fifth row start */}
+                <div
+                  className="row "
+                  style={{ marginTop: "46px", marginLeft: "-30px" }}
+                >
+                  <div className="col-md-4">
+                    <div class="card" style={{ width: "19em" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-4"
+                    style={{ position: "relative", left: "10px" }}
+                  >
+                    <div class="card" style={{ width: "19rem" }}>
+                      <a href="" style={{ textDecoration: "none" }}>
+                        <img
+                          class="card-img-top"
+                          src="https://aspirestore.co.uk/49062-home_default/olivier-fabric-ottoman-bed.jpg"
+                          alt="Card image cap"
+                        />
+                      </a>
+                      <div
+                        class="card-body cardTxt"
+                        style={{ paddingleft: "18px" }}
+                      >
+                        <h6 class="card-title  card-hoverText">
+                          {" "}
+                          <b> Olivier Fabric Ottoman Bed </b>
+                        </h6>
+                        <p class="card-text ">
+                          <img
+                            src="assets/images/banner/Group 429.png"
+                            alt=""
+                          />
+                        </p>
+                        <a href="#" style={{ textDecoration: "none" }}>
+                          <p className="card-text" style={{ fontSize: "19px" }}>
+                            {" "}
+                            <b> £400.00 </b>
+                            <del style={{ color: "#7c7c7c" }}>£749.00</del>{" "}
+                          </p>
+                        </a>
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                       </div>
                     </div>

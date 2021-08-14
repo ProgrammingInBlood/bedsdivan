@@ -1,19 +1,19 @@
 
 import Image from "next/image/";
-import Link from "next/link";
+
 import Head from "next/head";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
 
 function Home() {
   var images = [];
-  var imgSlides = () =>
-    images.map((num) => ({
-      /* <div className="imgpad">  
-    <Image className="imgdetails" alt="BedsDivan" src= {num.img} width="100%"/>    
-  </div>   */
-    }));
+//   var imgSlides = () =>
+//     images.map((num) => ({
+//       /* <div className="imgpad">  
+//     <Image className="imgdetails" alt="BedsDivan" src= {num.img} width="100%"/>    
+//   </div>   */
+//     }));
   return (
     <div>
       <Head>
@@ -235,10 +235,10 @@ function Home() {
                   <ul>
                     {/* <li className="dropdown position-static"><a href="/DivanBed"> <b>Divan Beds</b> </a> */}
                     <li className="dropdown position-static ">
-                      <Link className="ForBold" href="/product/Divanbed">
+                      <a className="ForBold" href="/product/Divanbed">
                         {" "}
                         Divan Beds
-                      </Link>
+                      </a>
                       <ul className="mega-menu d-block">
                         <li className="d-flex">
                           <ul className="d-block">
@@ -356,10 +356,10 @@ function Home() {
                       </ul>
                     </li>
                     <li className="dropdown position-static">
-                      <Link className="ForBold" href="/product/AllBeds">
+                      <a className="ForBold" href="/product/AllBeds">
                         {" "}
                         All Beds{" "}
-                      </Link>
+                      </a>
 
                       <ul className="mega-menu d-block">
                         <li className="d-flex">
@@ -495,7 +495,7 @@ function Home() {
                       </ul>
                     </li>
                     <li className="dropdown position-static">
-                      <Link href="/product/Headboard"> Headboard </Link>
+                      <a href="/product/Headboard"> Headboard </a>
 
                       <ul className="mega-menu d-block">
                         <li className="d-flex">
@@ -690,9 +690,9 @@ function Home() {
                     </li>
 
                     <li className="dropdown position-static">
-                      <Link className="ForBold" href="/product/Sofa">
+                      <a className="ForBold" href="/product/Sofa">
                         Sofa{" "}
-                      </Link>
+                      </a>
                       {/* <i
                                             className="ion-ios-arrow-down"></i> */}
                       <ul className="mega-menu d-block">
@@ -797,9 +797,9 @@ function Home() {
                       </ul>
                     </li>
                     <li className="dropdown position-static">
-                      <Link href="/product/GardenFurniture">
+                      <a href="/product/GardenFurniture">
                         Garden Furniture{" "}
-                      </Link>
+                      </a>
                       {/* <i
                                             className="ion-ios-arrow-down"></i> */}
 
@@ -917,10 +917,10 @@ function Home() {
                                 </li> */}
 
                     <li className="dropdown position-static">
-                      <Link href="/product/LivingRoom">
+                      <a href="/product/LivingRoom">
                         {" "}
                         Living Room Furniture{" "}
-                      </Link>
+                      </a>
                       {/* <i
                                             className="ion-ios-arrow-down"></i> */}
                       <ul className="mega-menu d-block">
@@ -997,7 +997,7 @@ function Home() {
                     </li>
 
                     <li className="dropdown position-static">
-                      <Link href="/product/DiningSet"> Dining Set </Link>
+                      <a href="/product/DiningSet"> Dining Set </a>
                       {/* <i
                                             className="ion-ios-arrow-down"></i> */}
                       <ul className="mega-menu d-block">
@@ -3304,236 +3304,7 @@ function Home() {
                 style={{ marginBottom: "20px", marginTop: "60px" }}
               ></div>
             </div>
-            <Slider
-              dots={true}
-              slidesToShow={2}
-              slidesToScroll={2}
-              autoplay={false}
-              arrows={true}
-              autoplaySpeed={3000}
-            >
-              {imgSlides()}
-              <div className="product productNew sliderProduct">
-                <div className="thumb">
-                  <a href="shop-left-sidebar.html" className="image">
-                    <Image
-                      width={128}
-                      height={128}
-                      src="/assets/images/banner/Homepage-banner.png"
-                      className="rounded"
-                      alt="Product"
-                    />
-                    <Image
-                      width={128}
-                      height={128}
-                      className="hover-image"
-                      src="/assets/images/product-image/2.jpg"
-                      alt="Product"
-                    />
-                  </a>
-
-                  <div className="actions">
-                    <a
-                      href="wishlist.html"
-                      className="action wishlist"
-                      title="Wishlist"
-                    >
-                      <i className="icon-heart"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="best-seller mb-6 mt-8 text-center">
-                  <button>BUY NOW</button>
-                </div>
-
-                <div className="rating-product">
-                  {/* <Image width={128} height={128} src="" width="120px" alt="BedsDivan"/> */}
-                </div>
-                <div className="contentNew">
-                  <p>
-                    Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                    DELIVERY
-                  </p>{" "}
-                  <span className="price"></span>
-                </div>
-              </div>
-              <div className="product productNew sliderProduct">
-                <div className="thumb">
-                  <a href="shop-left-sidebar.html" className="image">
-                    <Image
-                      width={128}
-                      height={128}
-                      src="/assets/images/banner/Homepage-banner.png"
-                      className="rounded"
-                      alt="Product"
-                    />
-                    <Image
-                      width={128}
-                      height={128}
-                      className="hover-image"
-                      src="/assets/images/product-image/2.jpg"
-                      alt="Product"
-                    />
-                  </a>
-
-                  <div className="actions">
-                    <a
-                      href="wishlist.html"
-                      className="action wishlist"
-                      title="Wishlist"
-                    >
-                      <i className="icon-heart"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="best-seller mb-6 mt-8 text-center">
-                  <button>BUY NOW</button>
-                </div>
-
-                <div className="rating-product">
-                  {/* <Image width={128} height={128} src="" width="120px" alt="BedsDivan" /> */}
-                </div>
-                <div className="contentNew">
-                  <p>
-                    Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                    DELIVERY
-                  </p>{" "}
-                  <span className="price"></span>
-                </div>
-              </div>
-              <div className="product productNew sliderProduct">
-                <div className="thumb">
-                  <a href="shop-left-sidebar.html" className="image">
-                    <Image
-                      width={128}
-                      height={128}
-                      src="/assets/images/banner/Homepage-banner.png"
-                      className="rounded"
-                      alt="Product"
-                    />
-                    <Image
-                      width={128}
-                      height={128}
-                      className="hover-image"
-                      src="/assets/images/product-image/2.jpg"
-                      alt="Product"
-                    />
-                  </a>
-
-                  <div className="actions">
-                    <a
-                      href="wishlist.html"
-                      className="action wishlist"
-                      title="Wishlist"
-                    >
-                      <i className="icon-heart"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="best-seller mb-6 mt-8 text-center">
-                  <button>BUY NOW</button>
-                </div>
-
-                <div className="rating-product">
-                  {/* <Image width={128} height={128} src="" width="120px" alt="BedsDivan" /> */}
-                </div>
-                <div className="contentNew">
-                  <p>
-                    Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                    DELIVERY
-                  </p>{" "}
-                  <span className="price"></span>
-                </div>
-              </div>
-              <div className="product productNew sliderProduct">
-                <div className="thumb">
-                  <a href="shop-left-sidebar.html" className="image">
-                    <Image
-                      width={128}
-                      height={128}
-                      src="/assets/images/banner/Homepage-banner.png"
-                      className="rounded"
-                      alt="Product"
-                    />
-                    <Image
-                      width={128}
-                      height={128}
-                      className="hover-image"
-                      src="/assets/images/product-image/2.jpg"
-                      alt="Product"
-                    />
-                  </a>
-
-                  <div className="actions">
-                    <a
-                      href="wishlist.html"
-                      className="action wishlist"
-                      title="Wishlist"
-                    >
-                      <i className="icon-heart"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="best-seller mb-6 mt-8 text-center">
-                  <button>BUY NOW</button>
-                </div>
-
-                <div className="rating-product">
-                  {/* <Image width={128} height={128} src="" width="120px" alt="BedsDivan" /> */}
-                </div>
-                <div className="contentNew">
-                  <p>
-                    Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                    DELIVERY
-                  </p>{" "}
-                  <span className="price"></span>
-                </div>
-              </div>
-              <div className="product productNew sliderProduct">
-                <div className="thumb">
-                  <a href="shop-left-sidebar.html" className="image">
-                    <Image
-                      width={128}
-                      height={128}
-                      src="/assets/images/banner/Homepage-banner.png"
-                      className="rounded"
-                      alt="Product"
-                    />
-                    <Image
-                      width={128}
-                      height={128}
-                      className="hover-image"
-                      src="/assets/images/product-image/2.jpg"
-                      alt="Product"
-                    />
-                  </a>
-
-                  <div className="actions">
-                    <a
-                      href="wishlist.html"
-                      className="action wishlist"
-                      title="Wishlist"
-                    >
-                      <i className="icon-heart"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="best-seller mb-6 mt-8 text-center">
-                  <button>BUY NOW</button>
-                </div>
-
-                <div className="rating-product">
-                  {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-                </div>
-                <div className="contentNew">
-                  <p>
-                    Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                    DELIVERY
-                  </p>{" "}
-                  <span className="price"></span>
-                </div>
-              </div>
-            </Slider>
+            
           </div>
           {/* For Mobile ENd */}
         </div>
@@ -3704,206 +3475,7 @@ function Home() {
         <div className="container-fluid">
           <div className="row " style={{ marginBottom: "20px" }}></div>
         </div>
-        <Slider
-          dots={true}
-          slidesToShow={4}
-          slidesToScroll={4}
-          autoplay={false}
-          arrows={true}
-          autoplaySpeed={3000}
-        >
-          {imgSlides()}
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={378}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                {/* <Image width={128} height={128} className="hover-image" src="/assets/images/product-image/2.jpg" alt="Product" /> */}
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={378}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                {/* <Image width={128} height={128} className="hover-image" src="/assets/images/product-image/2.jpg" alt="Product" /> */}
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={378}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                {/* <Image width={378} height={128}  className="hover-image" src="/assets/images/product-image/2.jpg" alt="Product" /> */}
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={378}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                {/* <Image  className="hover-image" src="/assets/images/product-image/2.jpg" alt="Product" /> */}
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={378}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                {/* <Image width={128} height={128} className="hover-image" src="/assets/images/product-image/2.jpg" alt="Product" /> */}
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-        </Slider>
+        
         <div className="text-center mt-4">
           <div className="">
             <a
@@ -3926,237 +3498,7 @@ function Home() {
         <div className="container-fluid">
           <div className="row " style={{ marginBottom: "20px" }}></div>
         </div>
-        <Slider
-          dots={true}
-          slidesToShow={2}
-          slidesToScroll={2}
-          autoplay={false}
-          arrows={true}
-          autoplaySpeed={3000}
-        >
-          {imgSlides()}
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={128}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                <Image
-                  width={128}
-                  height={128}
-                  className="hover-image"
-                  src="/assets/images/product-image/2.jpg"
-                  alt="Product"
-                />
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
               </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={128}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                <Image
-                  width={128}
-                  height={128}
-                  className="hover-image"
-                  src="/assets/images/product-image/2.jpg"
-                  alt="Product"
-                />
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={128}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                <Image
-                  width={128}
-                  height={128}
-                  className="hover-image"
-                  src="/assets/images/product-image/2.jpg"
-                  alt="Product"
-                />
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={128}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                <Image
-                  width={128}
-                  height={128}
-                  className="hover-image"
-                  src="/assets/images/product-image/2.jpg"
-                  alt="Product"
-                />
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-          <div className="product productNew sliderProduct">
-            <div className="thumb">
-              <a href="shop-left-sidebar.html" className="image">
-                <Image
-                  width={128}
-                  height={128}
-                  src="/assets/images/banner/Homepage-banner.png"
-                  className="rounded"
-                  alt="Product"
-                />
-                <Image
-                  width={128}
-                  height={128}
-                  className="hover-image"
-                  src="/assets/images/product-image/2.jpg"
-                  alt="Product"
-                />
-              </a>
-
-              <div className="actions">
-                <a
-                  href="wishlist.html"
-                  className="action wishlist"
-                  title="Wishlist"
-                >
-                  <i className="icon-heart"></i>
-                </a>
-              </div>
-            </div>
-            <div className="best-seller mb-6 mt-8 text-center">
-              <button>BUY NOW</button>
-            </div>
-
-            <div className="rating-product">
-              {/* <Image width={128} height={128} src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" width="120px" alt="" /> */}
-            </div>
-            <div className="contentNew">
-              <p>
-                Grey Linen Divan Base Or Set + Headboard & Mattress FREE UK
-                DELIVERY
-              </p>{" "}
-              <span className="price"></span>
-            </div>
-          </div>
-        </Slider>
-      </div>
       {/* For Mobile end */}
 
       <div className="section pb-100px pt-100px bg-brown">

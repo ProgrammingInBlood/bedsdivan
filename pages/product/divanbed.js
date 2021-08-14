@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Image from "next/image/";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
@@ -12,7 +12,7 @@ import Head from "next/head";
 //     }
 // }
 function Divanbed() {
-  const bedsdivan = { hello: "world" };
+  
   return (
     <div>
       <div>
@@ -24,8 +24,8 @@ function Divanbed() {
         <div>
           <div className="header section">
             {/* <ul>
-              <li><Link href="/new">New</Link>
-              <li><Link href="/product/Divanbed">Divan</Link></li>
+              <li><a href="/new">New</a>
+              <li><a href="/product/Divanbed">Divan</a></li>
               </li>
               
           </ul> */}
@@ -69,14 +69,14 @@ function Divanbed() {
                 <div className="row align-self-center">
                   <div className="col-md-2 align-self-center">
                     <div className="header-logo">
-                      <Link href="/Home">
+                      <a href="/Home">
                         <Image
                           alt="BedsDivan"
                           src="/assets/images/logo/logo.png"
                           width={118}
                           height={118}
                         />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                   <div className="col-md-6 align-self-center">
@@ -242,10 +242,10 @@ function Divanbed() {
                       <ul>
                         {/* <li className="dropdown position-static"><a href="/DivanBed"> <b>Divan Beds</b> </a> */}
                         <li className="dropdown position-static ">
-                          <Link className="ForBold" href="/product/Divanbed">
+                          <a className="ForBold" href="/product/Divanbed">
                             {" "}
                             Divan Beds
-                          </Link>
+                          </a>
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
                               <ul className="d-block">
@@ -366,10 +366,10 @@ function Divanbed() {
                           </ul>
                         </li>
                         <li className="dropdown position-static">
-                          <Link className="ForBold" href="/product/AllBeds">
+                          <a className="ForBold" href="/product/AllBeds">
                             {" "}
                             All Beds{" "}
-                          </Link>
+                          </a>
 
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
@@ -518,7 +518,7 @@ function Divanbed() {
                           </ul>
                         </li>
                         <li className="dropdown position-static">
-                          <Link href="/product/Headboard"> Headboard </Link>
+                          <a href="/product/Headboard"> Headboard </a>
 
                           <ul className="mega-menu d-block">
                             <li className="d-flex">
@@ -727,9 +727,9 @@ function Divanbed() {
                         </li>
 
                         <li className="dropdown position-static">
-                          <Link className="ForBold" href="/product/Sofa">
+                          <a className="ForBold" href="/product/Sofa">
                             Sofa{" "}
-                          </Link>
+                          </a>
                           {/* <i
                                             className="ion-ios-arrow-down"></i> */}
                           <ul className="mega-menu d-block">
@@ -841,9 +841,9 @@ function Divanbed() {
                           </ul>
                         </li>
                         <li className="dropdown position-static">
-                          <Link href="/product/GardenFurniture">
+                          <a href="/product/GardenFurniture">
                             Garden Furniture{" "}
-                          </Link>
+                          </a>
                           {/* <i
                                             className="ion-ios-arrow-down"></i> */}
 
@@ -968,10 +968,10 @@ function Divanbed() {
                                 </li> */}
 
                         <li className="dropdown position-static">
-                          <Link href="/product/LivingRoom">
+                          <a href="/product/LivingRoom">
                             {" "}
                             Living Room Furniture{" "}
-                          </Link>
+                          </a>
                           {/* <i
                                             className="ion-ios-arrow-down"></i> */}
                           <ul className="mega-menu d-block">
@@ -1051,7 +1051,7 @@ function Divanbed() {
                         </li>
 
                         <li className="dropdown position-static">
-                          <Link href="/product/DiningSet"> Dining Set </Link>
+                          <a href="/product/DiningSet"> Dining Set </a>
                           {/* <i
                                             className="ion-ios-arrow-down"></i> */}
                           <ul className="mega-menu d-block">
@@ -1589,50 +1589,7 @@ function Divanbed() {
               </div>
 
               <div className="row">
-                {bedsdivan.map((bedsdivans) => (
-                  <div
-                    className="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <div className="product productfor2">
-                      <div className="thumb thumbfor2">
-                        <a
-                          href="shop-left-sidebar.html"
-                          className="image imagefor2"
-                        >
-                          <Image
-                            src="/assets/images/product-image/2.jpg"
-                            alt="Product"
-                            width={210}
-                            height={10}
-                          />
-                          {/* <Image className="hover-image" src="/assets/images/product-image/2.jpg" width={180} height={180} alt="Product" /> */}
-                        </a>
-                        <span className="badges">
-                          <span className="new" style={{ fontSize: "18px" }}>
-                            50% OFF
-                          </span>
-                        </span>
 
-                        <p className="sale">{bedsdivans.product_name}</p>
-                      </div>
-                      <div className="content reco-pr">
-                        <p className="title">
-                          <a href="shop-left-sidebar.html">
-                            {bedsdivans.Description}{" "}
-                          </a>
-                        </p>
-                        <span className="price">
-                          <span className="old">
-                            {bedsdivans.compare_Price}
-                          </span>
-                          <span className="new">{bedsdivans.price}</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
 
                 <div
                   className="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6"
